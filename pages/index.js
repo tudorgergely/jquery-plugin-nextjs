@@ -1,6 +1,6 @@
 import React from 'react';
 import dynamic from 'next/dynamic'
-import Head from "next/dist/next-server/lib/head";
+import Head from "next/head";
 
 const DynamicJqueryDiamonds = dynamic(
     () => import('../components/JqueryDiamonds'),
